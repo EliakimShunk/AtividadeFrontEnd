@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Área da navbar*/
+
+nav {
+    background-color: #3F97E9;
+
+    flex-wrap: wrap;
+
+    padding: 0.5rem;
+}
+
+.container-nav{
+    display: flex;
+    margin-left: 5rem;
+
+    margin-top: 1rem;
+}
+
+.elements-nav, li{
+    display: flex;
+    position: relative;
+
+    top: 0.5rem;
+
+    margin-left: 2.5rem;
+    list-style: none;
+
+    font-family: 'Poppins';font-size: 1rem;
+    font-weight: bolder;
+
+    color: #f8f6f0;
+}
+
+/*Área de pesquisa*/
+
+.container-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    margin-right: 3rem;
+}
+
+.elements-search {
+    display: flex;
+    position: relative;
+
+    top: -1.3rem;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0);
+
+    border: solid white 1px;
+    border-radius: 12px;
+
+    font-family: 'Poppins';font-size: 1rem;
+    font-weight: bolder;
+
+    color: #f8f6f0;
+}
+
+/*Área principal, atenção nessa idiota*/
+/*Minha expectativa de vida diminuiu tentando melhorar o navbar*/
+
+main {
+    margin-left: 5.5rem;
+    
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 1185px;
+    height: 400px;
+
+    background-image: url(/img/comumfront\ \(1\).jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    font-family: 'Poppins';
+    font-size: 3rem;
+    -webkit-text-stroke: black;
+    font-weight: bolder;
+
+    color: #f8f6f0;
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+
+    top: -5px;
+
+    width: 1165px;
+    padding: 10px;
+
+    font-family: 'Poppins';font-size: 1rem;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    color: black;
+
+    background-color: silver;
+
+    margin-bottom: 70px;
+}
+
+.info {
+    font-family: 'Poppins';font-size: 1rem;
+    font-weight: bolder;
+
+    width: 50rem;
+}
