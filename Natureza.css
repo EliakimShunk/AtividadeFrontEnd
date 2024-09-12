@@ -66,10 +66,6 @@ h2 {
     margin-left: 1rem;
 }
 
-#Titulo1 {
-    margin-top: 5rem;
-}
-
 p {
     top: 5rem;
     right: 11.8rem;
@@ -82,4 +78,9 @@ p {
 video {
     display: flex;
     justify-content: center;
+}
+
+img {
+    width: 90rem;
+    height: 20rem;
 }
