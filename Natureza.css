@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: white;
+    background-color: #F8F6F0;
 }
 
 /*NAV AREA*/
@@ -50,31 +50,36 @@ ul, li {
 
 /*MAIN AREA*/
 
-main {
+h1{
+    background-color: #C5C6D0;
     display: flex;
     justify-content: center;
-
-    margin-top: 14rem;
-
+    padding: 15px;
     font-family: 'Poppins';
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: bolder;
-
+    
     color: black;
 }
 
-h1{
-    position: relative;
-    text-align: center;
+h2 {
+    margin-left: 1rem;
 }
 
-h1 {
-    left: 9rem;
+#Titulo1 {
+    margin-top: 5rem;
 }
 
 p {
     top: 5rem;
     right: 11.8rem;
     font-weight: lighter;
+    text-align: justify;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
+video {
+    display: flex;
+    justify-content: center;
+}
