@@ -48,8 +48,6 @@ ul, li {
     top: 0.5rem;
 }
 
-/*MAIN AREA*/
-
 h1{
     background-color: #C5C6D0;
     display: flex;
@@ -67,6 +65,7 @@ h2 {
 }
 
 p {
+    display: flex;
     top: 5rem;
     right: 11.8rem;
     font-weight: lighter;
@@ -75,12 +74,33 @@ p {
     margin-right: 2rem;
 }
 
-video {
-    display: flex;
-    justify-content: center;
+img {
+    width: 1272px;
+    height: 20rem;
 }
 
-img {
-    width: 90rem;
-    height: 20rem;
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#Titulo2{
+    background-color: #f8f6f0;
+}
+
+#comunicação a {
+    color: white; 
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+#comunicação a:hover {
+    color: white; 
+    text-decoration: none; /* Garante que o sublinhado não apareça no hover */
 }
