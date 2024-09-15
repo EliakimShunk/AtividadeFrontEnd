@@ -9,7 +9,6 @@ a {
     text-decoration: none;
 }
 
-
 nav {
     background-color: #3F97E9;
 
@@ -29,15 +28,16 @@ nav {
     display: flex;
     position: relative;
 
+    cursor: pointer;
+
     top: 0.5rem;
 
     margin-left: 2.5rem;
     list-style: none;
 
-    font-family: 'Poppins';font-size: 1rem;
+    font-family: 'Poppins';
+    font-size: 1rem;
     font-weight: bolder;
-
-    cursor: pointer;
 
     color: #f8f6f0;
 }

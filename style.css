@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #f8f6f0;
+    background-color: black;
 }
 
 a {
@@ -29,6 +29,8 @@ ul, li {
 
     font-family: 'Poppins';font-size: 1rem;
     font-weight: bolder;
+
+    cursor: pointer;
 
     color: #f8f6f0;
 }
@@ -104,15 +106,15 @@ p {
 
     left: 37rem;
     top: 5rem;
+
+    transition: 0.2s;
 }
 .myButton:hover {
 	background-color:#48a5b6;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
 
+    transform: scale(1.1);
+    transition: 0.2s;
+}
 span {
     color: #3F97E9;
 }
