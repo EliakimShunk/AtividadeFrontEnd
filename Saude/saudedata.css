@@ -3,129 +3,123 @@
     margin: 0;
 }
 
-/*Área da navbar*/
+body{
+    background-color: #F8F6F0;
+}
+
+/*NAV AREA*/
 
 a {
     text-decoration: none;
 }
 
+
 nav {
     background-color: #3F97E9;
-
-    flex-wrap: wrap;
-
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
-.container-nav{
+ul, li {
     display: flex;
-    margin-left: 5rem;
+    justify-content: start;
 
-    margin-top: 1rem;
-}
+    list-style: none;
 
-.elements-nav, li{
-    display: flex;
-    position: relative;
+    margin-left: 4rem;
+
+    font-family: 'Poppins';font-size: 1rem;
+    font-weight: bolder;
 
     cursor: pointer;
 
-    top: 0.5rem;
-
-    margin-left: 2.5rem;
-    list-style: none;
-
-    font-family: 'Poppins';
-    font-size: 1rem;
-    font-weight: bolder;
-
     color: #f8f6f0;
 }
 
-/*Área de pesquisa*/
+#search {
+    position: absolute;
 
-.container-search{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    color: #f8f6f0;
+    background-color: #3d758a00;
 
-    margin-right: 3rem;
-}
-
-.elements-search {
-    display: flex;
-    position: relative;
-
-    top: -1.3rem;
-
-    justify-content: center;
-    align-items: center;
-
-    height: 50px;
-    width: 200px;
-    background-color: rgba(0, 0, 0, 0);
+    text-align: start;
 
     border: solid white 1px;
-    border-radius: 12px;
+    border-radius: 24px;
+
+    padding: 12px;
+
+    width: 189px;
+    height: 40px;
+
+    left: 60rem;
+    top: 0.5rem;
+}
+
+h1{
+    background-color: #C5C6D0;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 15px;
+
+    font-family: 'Poppins';
+    font-size: 2rem;
+    font-weight: bolder;
+    
+    color: black;
+
+    letter-spacing: 5px;
+}
+
+h2 {
+    margin-left: 1rem;
+
+    font-family: 'Poppins';font-size: 1rem;
+    font-weight: bolder;
+}
+
+p {
+    display: flex;
+    top: 5rem;
+    right: 11.8rem;
+    font-weight: lighter;
+    text-align: justify;
+    margin-left: 2rem;
+    margin-right: 2rem;
 
     font-family: 'Poppins';font-size: 1rem;
     font-weight: bolder;
 
-    color: #f8f6f0;
 }
 
-/*Área principal, atenção nessa idiota*/
-/*Minha expectativa de vida diminuiu tentando melhorar o navbar*/
+img {
+    width: 1272px;
+    height: 20rem;
+}
 
 main {
-    margin-left: 5.5rem;
-    
-}
-
-.main-container {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    width: 1185px;
-    height: 400px;
-
-    background-image: url(/img/comumfront\ \(1\).jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    font-family: 'Poppins';
-    font-size: 3rem;
-    -webkit-text-stroke: black;
-    font-weight: bolder;
-
-    color: #f8f6f0;
 }
 
-.data {
-    display: flex;
-    justify-content: center;
-
-    position: relative;
-
-    top: -5px;
-
-    width: 1165px;
-    padding: 10px;
-
-    font-family: 'Poppins';font-size: 1rem;
-    font-weight: bolder;
-    letter-spacing: 10px;
-    color: black;
-
-    background-color: silver;
-
-    margin-bottom: 70px;
+div {
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
-.info {
-    font-family: 'Poppins';font-size: 1rem;
-    font-weight: bolder;
+#Titulo2{
+    background-color: #f8f6f0;
+}
 
-    width: 50rem;
+#comunicação a {
+    color: white; 
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+#comunicação a:hover {
+    color: white; 
+    text-decoration: none; /* Garante que o sublinhado não apareça no hover */
 }
