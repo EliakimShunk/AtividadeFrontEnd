@@ -90,14 +90,14 @@ img {
     display: inline-flex;
     border:  solid black 1px;
     
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 1rem;
     
 }
 
 .noticiary2 {
     position: relative;
-    left: 40rem;
+    left: 38rem;
     top: -24.8rem;
 
     display: inline-flex;
@@ -127,7 +127,7 @@ img {
 footer {
     background-color: #3F97E9;
     padding: 7rem;
-    width: 1349px;
+    width: 100%;
     margin-top: 7rem;
 }
 
