@@ -118,3 +118,12 @@ p {
 span {
     color: #3F97E9;
 }
+
+body{
+    background-image: url("../AtividadeFrontEnd/img/IMG_3094.PNG");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 2000px 2000px;
+    background-attachment: scroll;
+}
